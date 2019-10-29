@@ -89,37 +89,37 @@ ul {
 
 @media only screen and (max-width: 40em) {
   ul {
-    margin-top: 1.5rem;
+    margin-top: 1.5em;
   }
 
   .title h1 {
-    font-size: 2rem;
+    font-size: 2em;
   }
 
   .title p {
-    font-size: 1.8rem;
+    font-size: 1.8em;
   }
 
   .list li {
-    font-size: 1.2rem;
-    margin: 0.6rem auto;
+    font-size: 1.2em;
+    margin: 0.6em auto;
   }
 
   .deletebutton {
-    height: 1.5rem;
-    width: 4rem;
-    font-size: 0.7rem;
+    height: 1.5em;
+    width: 4em;
+    font-size: 0.7em;
   }
 
   #enter {
-    height: 1.5rem;
-    width: 4rem;
-    font-size: 0.7rem;
+    height: 1.5em;
+    width: 4em;
+    font-size: 0.7em;
   }
 
   #userinput {
-    height: 1rem;
-    font-size: 0.8rem;
+    height: 1em;
+    font-size: 0.8em;
   }
  
 }
