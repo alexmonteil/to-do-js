@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+ul {
+  margin-top: 3rem;
+}
+
 .done {
   text-decoration: line-through;
 }
@@ -13,10 +17,10 @@ body {
 
 .deletebutton {
   text-decoration: none !important;
-  border: 2px solid darkblue;
+  border: 0.2rem solid darkblue;
   border-radius: 5px;
-  height: 30px;
-  width: 80px;
+  height: 2rem;
+  width: 6rem;
   background-color: #2d5986;
   color: #d9e6f2;
   font-family: 'Righteous', sans-serif;
@@ -34,15 +38,15 @@ body {
 }
 
 .title h1 {
-  font-size: 4em;
+  font-size: 3rem;
 }
 
 .title p {
-  font-size: 3em;
+  font-size: 2.5rem;
 }
 
 .list {
-  margin: 0 auto;
+  margin: 0.5rem auto;
   width: 50%;
   text-align: center;
 }
@@ -50,10 +54,10 @@ body {
 .list li {
   font-family: 'Josefin Sans', sans-serif;
   color: #003366;
-  font-size: 2em;
+  font-size: 2rem;
   list-style: none;
   width: fit-content;
-  margin: 10px auto;
+  margin: 1rem auto;
 }
 
 .list li:hover {
@@ -61,10 +65,10 @@ body {
 }
 
 #enter {
-  border: 2px solid darkblue;
+  border: 0.2rem solid darkblue;
   border-radius: 5px;
-  height: 30px;
-  width: 80px;
+  height: 2rem;
+  width: 6rem;
   background-color: #2d5986;
   color: #d9e6f2;
   font-family: 'Righteous', sans-serif;
@@ -76,11 +80,11 @@ body {
 }
 
 #userinput {
-  height: 30px;
-  font-size: 0.9rem;
+  height: 2rem;
+  font-size: 1rem;
   border-radius: 5px;
   background-color: #d9e6f2;
-  border: 2px solid lightblue; 
+  border: 0.2rem solid lightblue; 
 }
 
 
