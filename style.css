@@ -86,26 +86,3 @@ ul {
   background-color: #d9e6f2;
   border: 0.2rem solid lightblue; 
 }
-
-
-@media only screen and (max-width: 450px) {
-  body {
-    background-color: #d9e6f2;
-  }
-
-  .title h1 {
-    font-size: 5rem;
-  }
-
-  .title p {
-    font-size: 4rem;
-  }
-
-  .list {
-    width: 60%;
-  }
-
-  .list li {
-    font-size: 3rem;
-  }
-}
