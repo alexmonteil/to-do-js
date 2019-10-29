@@ -91,6 +91,10 @@ ul {
 
 
 @media only screen and (max-width: 25em) {
+  body {
+    background-color: #d9e6f2;
+  }
+
   .title h1 {
     font-size: 5rem;
   }
