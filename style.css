@@ -90,17 +90,18 @@ ul {
 
 @media only screen and (max-width: 500px) {
   .title h1 {
-    font-size: 4em;
+    font-size: 5em;
   }
 
   .title p {
-    font-size: 3em;
+    font-size: 4em;
   }
 
   .list {
-    margin: 0.5rem auto;
     width: 60%;
-    text-align: center;
   }
 
+  .list li {
+    font-size: 3rem;
+  }
 }
