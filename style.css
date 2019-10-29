@@ -88,3 +88,19 @@ ul {
 }
 
 
+@media only screen and (max-width: 500px) {
+  .title h1 {
+    font-size: 4rem;
+  }
+
+  .title p {
+    font-size: 3.5rem;
+  }
+
+  .list {
+    margin: 0.5rem auto;
+    width: 60%;
+    text-align: center;
+  }
+
+}
