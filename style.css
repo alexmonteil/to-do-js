@@ -88,7 +88,7 @@ ul {
 }
 
 
-@media only screen and (device-width: 500px)  and (-webkit-device-pixel-ratio : 2) {
+/*@media only screen and (device-width: 500px)  and (-webkit-device-pixel-ratio : 2) {
   .title h1 {
     font-size: 5em;
   }
@@ -104,4 +104,4 @@ ul {
   .list li {
     font-size: 3rem;
   }
-}
+}*/
