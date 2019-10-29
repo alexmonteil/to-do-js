@@ -1,4 +1,6 @@
 body {
+  height: 100vh;
+  width: 100 vw;
   background: linear-gradient(to right, #57557a, #18e0c2);
   text-align: center;
 }
