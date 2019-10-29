@@ -95,7 +95,6 @@ ul {
 
   ul {
     margin-top: 1.5em;
-    width: 70%;
   }
 
   .title h1 {
@@ -107,7 +106,7 @@ ul {
   }
 
   .list {
-    width: 70%;
+    width: 80%;
   }
 
   .list li {
@@ -116,14 +115,14 @@ ul {
   }
 
   .deletebutton {
-    height: 1.5em;
-    width: 4em;
+    height: 2em;
+    width: 5em;
     font-size: 0.7em;
   }
 
   #enter {
-    height: 1.5em;
-    width: 4em;
+    height: 2em;
+    width: 5em;
     font-size: 0.7em;
   }
 
