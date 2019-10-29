@@ -20,7 +20,7 @@ body {
   background-color: #2d5986;
   color: #d9e6f2;
   font-family: 'Righteous', sans-serif;
-
+  font-size: 1rem;
 }
 
 .deletebutton:hover {
@@ -34,23 +34,23 @@ body {
 }
 
 .title h1 {
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .title p {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .list {
   margin: 0 auto;
-  width: 40%;
+  width: 50%;
   text-align: center;
 }
 
 .list li {
   font-family: 'Josefin Sans', sans-serif;
   color: #003366;
-  font-size: 1.5em;
+  font-size: 2em;
   list-style: none;
   width: fit-content;
   margin: 10px auto;
@@ -68,7 +68,7 @@ body {
   background-color: #2d5986;
   color: #d9e6f2;
   font-family: 'Righteous', sans-serif;
-
+  font-size: 1rem;
 }
 
 #enter:hover {
@@ -76,6 +76,8 @@ body {
 }
 
 #userinput {
+  height: 30px;
+  font-size: 0.9rem;
   border-radius: 5px;
   background-color: #d9e6f2;
   border: 2px solid lightblue; 
