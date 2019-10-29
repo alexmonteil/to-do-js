@@ -86,3 +86,35 @@ ul {
   background-color: #d9e6f2;
   border: 0.2rem solid lightblue; 
 }
+
+@media only screen and (max-width: 500px) {
+  ul {
+    margin-top: 1.5rem;
+  }
+
+  .title h1 {
+    font-size: 1.8rem;
+  }
+
+  .title p {
+    font-size: 1.4rem;
+  }
+
+  .list li {
+    font-size: 0.9rem;
+    margin: 0.6rem auto;
+  }
+
+  .deletebutton {
+    height: 1rem;
+    width: 3rem;
+    font-size: 0.7rem;
+  }
+
+  #enter {
+    height: 1rem;
+    width: 3rem;
+    font-size: 0.7rem;
+  }
+ 
+}
