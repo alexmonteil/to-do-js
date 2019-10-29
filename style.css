@@ -105,6 +105,10 @@ ul {
     font-size: 1.8em;
   }
 
+  .list {
+    width: 70%;
+  }
+
   .list li {
     font-size: 1.2em;
     margin: 0.6em auto;
