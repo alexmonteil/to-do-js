@@ -122,6 +122,7 @@ ul {
     height: 2em;
     width: 5em;
     font-size: 0.7em;
+    cursor: pointer;
   }
 
   #userinput {
