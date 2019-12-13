@@ -25,6 +25,7 @@ ul {
   color: #d9e6f2;
   font-family: 'Righteous', sans-serif;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .deletebutton:hover {
@@ -74,6 +75,7 @@ ul {
   color: #d9e6f2;
   font-family: 'Righteous', sans-serif;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 #enter:hover {
@@ -115,14 +117,12 @@ ul {
     height: 2em;
     width: 5em;
     font-size: 0.7em;
-    cursor: pointer;
   }
 
   #enter {
     height: 2em;
     width: 5em;
     font-size: 0.7em;
-    cursor: pointer;
   }
 
   #userinput {
