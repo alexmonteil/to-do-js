@@ -58,6 +58,7 @@ ul {
   list-style: none;
   width: fit-content;
   margin: 1rem auto;
+  cursor: pointer;
 }
 
 .list li:hover {
@@ -114,6 +115,7 @@ ul {
     height: 2em;
     width: 5em;
     font-size: 0.7em;
+    cursor: pointer;
   }
 
   #enter {
