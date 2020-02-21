@@ -5,13 +5,13 @@ const li = document.querySelectorAll("li");
 const deletebuttons = document.getElementsByClassName("deletebutton");
 
 
-// Check for input value
+// Checks for input value
 
 const inputLength = () => {
 	return input.value.length;
 }
 
-// Create a new list item with delete button
+// Creates a new list item with delete button
 
 const createListElement = () => {
 	const createli = document.createElement("li");
@@ -26,7 +26,7 @@ const createListElement = () => {
 }
 
 
-// Delete a list item 
+// Deletes a list item 
 
 const deleteListElement = (event) => {
 	const deleteLiTarget = event.target.parentElement
@@ -34,7 +34,7 @@ const deleteListElement = (event) => {
 }
 
 
-// Add the new list item after click
+// Adds the new list item after click
 
 const addListAfterClick = () => {
 	if (inputLength() > 0) {
@@ -44,7 +44,7 @@ const addListAfterClick = () => {
 	}
 }
 
-// Add the new list item after keypress 'Enter'
+// Adds the new list item after keypress 'Enter'
 
 const addListAfterKeypress = (event) => {
 	if (inputLength() > 0 && event.keyCode === 13) {
@@ -54,21 +54,21 @@ const addListAfterKeypress = (event) => {
 	}
 }
 
-// Add Class .done to classList
+// Adds Class .done to classList
 
 const addClassDone = (element) => {
 	element.classList.add("done");
 	element.lastElementChild.classList.toggle("hidedelete");
 }
 
-// Toggle Class .done on or off
+// Toggles Class .done on or off
 
 const toggleClassDone = (element) => {
 	element.classList.toggle("done");
 	element.lastElementChild.classList.toggle("hidedelete");
 }
 
-// Decide to add or toggle class .done 
+// Adds or toggles class .done 
 
 const addOrToggleClassDoneAfterClick = (event) => {
 	const liToggle = event.target;
@@ -79,14 +79,15 @@ const addOrToggleClassDoneAfterClick = (event) => {
 	}
 }
 
-// Add an event and consequence to multiple selected elements
+// Adds an event and consequence to multiple selected elements
 
 const AddingEventToQueryAll = (element, eventtype, consequence) => {
-	for (i = 0; i < element.length; i++) {
+	for (let i = 0, len = element.length; i < len; i++) {
 		element[i].addEventListener(eventtype, consequence);
 	}
 }
 
+// Adds events
 
 AddingEventToQueryAll(li, "click", addOrToggleClassDoneAfterClick);
 

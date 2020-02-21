@@ -7,14 +7,17 @@ ul {
   margin-top: 3rem;
 }
 
+/* Styling for completed task */
 .done {
   text-decoration: line-through;
 }
 
+/* Class to hide / display delete button */
 .hidedelete {
   display: none;
 }
 
+/* Delete Button Styling */
 .deletebutton {
   text-decoration: none !important;
   border: 0.2rem solid darkblue;
@@ -32,6 +35,7 @@ ul {
   background-color: #79a6d2;
 }
 
+/* Title Styling */
 .title {
   text-align: center;
   font-family: 'ZCOOL KuaiLe', cursive;
@@ -46,6 +50,7 @@ ul {
   font-size: 2.5rem;
 }
 
+/* List and List Items Styling */
 .list {
   margin: 0.5rem auto;
   width: 50%;
